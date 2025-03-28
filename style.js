@@ -4,15 +4,6 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#110126'
       },
-      logoImg: {
-        resizeMode: 'contain', 
-        marginTop: 50,
-        marginBottom: 25
-      },
-      dashboardImg: {
-        resizeMode: 'contain', 
-        marginBottom: 20
-      },
       text: {
         fontSize: 28, 
         tFamily: 'Roboto-Medium', 
@@ -28,20 +19,21 @@ const styles = StyleSheet.create({
         color: '#ffffff', 
         lineHeight: 20
       },
-      buttonWrap: { 
-        height: 50, 
-        width: '100%' 
+      centerLogoImg: {
+        resizeMode: 'cover',
+        maxHeight: 50,
+        //maxWidth: 300
       },
-      buttonContainer: {
-        borderRadius: 50, 
-        paddingVertical: 15, 
-        alignItems: 'center', 
-        justifyContent: 'center'
+      menuIcon: {
+        height: 30,
+        width: 30,
+        resizeMode: 'contain'
       },
-      buttonText: {
-        fontSize: 16,
-        fontFamily: 'Roboto-Bold', 
-        color: '#ffffff'
+      addIcon: {
+        height: 18,
+        width: 18,
+        resizeMode: 'contain'
       }
+      
 });
 export default styles
