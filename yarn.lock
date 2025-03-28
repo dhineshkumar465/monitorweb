@@ -3188,7 +3188,7 @@ execa@^5.1.1:
     signal-exit "^3.0.3"
     strip-final-newline "^2.0.0"
 
-expo-asset@~11.0.5:
+expo-asset@^11.0.5, expo-asset@~11.0.5:
   version "11.0.5"
   resolved "https://registry.npmjs.org/expo-asset/-/expo-asset-11.0.5.tgz"
   integrity sha512-TL60LmMBGVzs3NQcO8ylWqBumMh4sx0lmeJsn7+9C88fylGDhyyVnKZ1PyTXo9CVDBkndutZx2JUEQWM9BaiXw==
