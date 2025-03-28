@@ -4,7 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import Home from './home';
 import Monitor from './monitor';
 import Fotter from '../../components/fotter';
-import styles from '../style';
+import styles from './style';
 
 const {UIManager} = NativeModules;
 

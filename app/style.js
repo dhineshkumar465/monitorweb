@@ -42,21 +42,6 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontFamily: 'Roboto-Bold', 
         color: '#ffffff'
-      },
-      centerLogoImg: {
-        resizeMode: 'cover',
-        maxHeight: 50,
-        //maxWidth: 300
-      },
-      menuIcon: {
-        height: 30,
-        width: 30,
-        resizeMode: 'contain'
-      },
-      addIcon: {
-        height: 18,
-        width: 18,
-        resizeMode: 'contain'
       }
 });
 export default styles

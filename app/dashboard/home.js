@@ -2,14 +2,14 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import Header from '../../components/header';
 import upload from '../../assets/icons/upload.png';
 import play from '../../assets/icons/play_circle.png';
-import styles from '../style';
+import styles from './style';
 
 export default function Home() {
     return (
         <>
             <Header />
             <ScrollView>
-                <View style={{ alignItems: 'center' }}>
+                <View style={styles.contentCenter}>
                     <View style={{ paddingVertical: 40 }}>
                         <View style={{ justifyContent: 'center', alignItems: 'center', height: 140, width: 140, borderRadius: 70, backgroundColor: '#531D9A' }}>
                             <View style={{ height: 110, width: 110, borderRadius: 55, backgroundColor: '#A46FE9' }}>
