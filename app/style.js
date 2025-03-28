@@ -57,11 +57,6 @@ const styles = StyleSheet.create({
         height: 18,
         width: 18,
         resizeMode: 'contain'
-      },
-      listIcon: {
-        height: 25,
-        width: 25,
-        resizeMode: 'contain'
-      },
+      }
 });
 export default styles

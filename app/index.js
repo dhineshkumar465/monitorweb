@@ -7,10 +7,9 @@ import * as Font from "expo-font";
 import * as SplashScreen from 'expo-splash-screen';
 import logo from '../assets/images/logo.png';
 import homeImg from '../assets/images/home_img.png';
-
 import styles from './style';
 
-export default function Dashboard() {
+export default function InitialScreen() {
   useEffect(() => {
     async function loadResourcesAndDataAsync() {
       try {
@@ -45,7 +44,7 @@ export default function Dashboard() {
         <View style={{ paddingVertical: 30 }}>
           <Text style={styles.subText}>With a FREE account you'll get access to distributed monitoring infrastructure with double-checks, advaced web app and Status Pages.</Text>
         </View>
-        <Link href="/home" asChild>
+        <Link href="/dashboard" asChild>
           <Pressable style={styles.buttonWrap}>
             <LinearGradient
               colors={['#EF1133', '#5A00D1']}
