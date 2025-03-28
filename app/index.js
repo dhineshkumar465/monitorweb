@@ -1,9 +1,19 @@
+import { useEffect } from 'react';
 import { Text, View, Image, Pressable } from 'react-native';
 import { Link } from 'expo-router';
+import * as SplashScreen from 'expo-splash-screen';
 import { LinearGradient } from 'expo-linear-gradient';
 import styles from './style';
 
 export default function Dashboard() {
+  useEffect(() => {
+    const onReady = async () => {
+      await SplashScreen.preventAutoHideAsync();
+      await SplashScreen.hideAsync();
+    };
+    onReady();
+  }, []);
+
   return (
     <View style={styles.container}>
       <View style={{ paddingHorizontal: 20 }}>
