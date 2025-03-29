@@ -1,6 +1,8 @@
 import upload from '../assets/icons/upload.png';
 import pause from '../assets/icons/pause.png';
-import download from '../assets/icons/download.png'
+import download from '../assets/icons/download.png';
+import cursor from '../assets/icons/cursor.png';
+import circleFrame from '../assets/icons/circleFrame.png';
 
 export const getColor = (val) => {
     if(val) {
@@ -40,3 +42,14 @@ export const getStatusImg = (status) => {
         return download;
     }
 }
+
+export const layoutData = [
+    {
+        text: 'HTTPs 443',
+        image: cursor
+    },
+    {
+        text: 'https://www.youtube.com',
+        image: circleFrame
+    }
+]

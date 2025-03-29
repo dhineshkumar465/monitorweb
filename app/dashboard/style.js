@@ -26,6 +26,11 @@ const styles = StyleSheet.create({
     contentCenter: {
         alignItems: 'center'
     },
+    rowCenter: {
+        flex:1, 
+        flexDirection: 'row', 
+        alignItems: 'center'
+    },
     outerCircle: {
         justifyContent: 'center', 
         alignItems: 'center', 
@@ -52,6 +57,28 @@ const styles = StyleSheet.create({
         textAlign: 'center', 
         lineHeight: 24, 
         color: '#FFFFFF'
+    },
+    smallText: {
+        fontSize: 12,
+        fontFamily: 'Roboto-Medium',
+        color: '#fff',
+        paddingLeft: 8
+    },
+    textLayout: {
+        padding: 20, 
+        flexDirection: 'row', 
+        justifyContent: 'space-between', 
+        alignItems: 'center'
+    },
+    boldText: {
+        fontSize: 20, 
+        fontFamily: 'Roboto-Bold', 
+        color: '#ffffff'
+    },
+    normalText: {
+        fontSize: 12, 
+        fontFamily: 'Roboto-Regular', 
+        color: '#fff'
     }
 });
 export default styles
