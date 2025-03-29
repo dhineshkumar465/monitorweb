@@ -1,15 +1,16 @@
 import { Text, View, Image, ScrollView } from 'react-native';
-import Header from '../../components/header';
-import upload from '../../assets/icons/upload.png';
-import play from '../../assets/icons/play_circle.png';
+import { monitorData } from '../../helpers/utils';
+import BackHeader from '../../components/backHeader';
+import List from '../../components/list';
+
 import styles from './style';
 
 export default function Monitor() {
     return (
         <>
-            <Header />
+            <BackHeader />
             <ScrollView>
-                
+                <List listData={monitorData} />
             </ScrollView>
         </>
     );
